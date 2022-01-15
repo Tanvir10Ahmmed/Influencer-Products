@@ -254,6 +254,10 @@ button {
             max-width: 800px;
 
         }
+        .more-product {
+            float: left;
+            margin-left: 26px;
+        }
     }
 
     /* Media Query for Mobile Devices */
@@ -311,12 +315,30 @@ button {
         .products{
             display: grid;
             grid-template-columns: 1fr;
+            align-content: center;
+            justify-content: center;
 
+        }
+        .collection{
+            align-content: center;
+            justify-content: center;
         }
         .contact {
             grid-template-columns: 1fr;
             max-width: 400px;
 
+        }
+        .contact-left img{
+            width: 350px;
+
+        }
+        .contact-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .more-product {
+            margin-left: 99px;
         }
     }
  
