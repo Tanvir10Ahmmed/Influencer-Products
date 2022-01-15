@@ -6,6 +6,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+
+
+
+/* Header style Starts */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -33,6 +38,12 @@ nav {
   text-decoration: none;
   color: #3a3a3a;
 }
+/* Header Ends */
+
+
+
+
+/* First Section Starts */
 .banner {
   display: flex;
   margin-top: 50px;
@@ -47,6 +58,10 @@ nav {
   font-weight: 600;
   margin: 24px 0px;
 }
+.banner-right img {
+    width: 440px;
+    height: 414px;
+  }
 
 button {
   background-color: #e02c6d;
@@ -55,6 +70,9 @@ button {
   padding: 10px 24px;
   border: 0;
   font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.1s ease;
 }
 .company-logo {
     display: flex;
@@ -71,3 +89,104 @@ button {
     max-width: 1000px;
     margin: 0 auto;
 }
+/* First style Section Ends */
+
+
+
+
+/* Second style Section Starts  */
+.collection {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .collection-title {
+    color: #3a3a3a;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .product {
+    width: 329px;
+    height: 476px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 11px;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+  .product-name {
+    color: #18191f;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 7px 0px;
+  }
+  .product-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 7px 0px;
+  }
+  .product-img img {
+    width: 100%;
+    transition: 0.2s ease;
+  }
+  .product-img img:hover {
+    transform: scale(0.9);
+    cursor: zoom-in;
+  }
+  .product-rate-icon {
+    color: #fb8200;
+  }
+  .product-info {
+    color: #787885;
+    margin: 5px 0px;
+  }
+  .rate-number {
+    color: #5e6366;
+    margin-left: 5px;
+  }
+  .more-product {
+    float: right;
+    margin-top: 20px;
+    margin-right: -58px;
+    color: #0a0826;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  /* Second style Section Ends */
+
+
+
+
+  /* Third style Section Starts */
+
+  /* Third Section Ends */
+
+
+
+  /* <!-- Footer style Starts  --> */
+  footer {
+    text-align: center;
+    margin-top: 80px;
+    background-color: #0a0826;
+    color: #ffffff;
+    padding: 30px 0;
+    height: 150px;
+  }
+  footer small {
+    color: #d9dbe1;
+  }
+  .social-link i {
+    margin: 30px 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+ 
+  /* Footer style Ends */
